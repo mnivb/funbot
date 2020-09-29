@@ -18,7 +18,7 @@ def handle(msg):
 
 #experiment
 
-    command = input("Enter Branch and Roll no, Eg: cse 17951A0572 :")
+    
     command == "command"
     Branch = command.split(' ')[0]
     print(Branch)
