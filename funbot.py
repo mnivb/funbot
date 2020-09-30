@@ -27,7 +27,7 @@ def handle(msg):
     print(roll)
     if roll=='17951A05A7':
         bot.sendMessage(chat_id,"betterlucknexttime!")
-        bot.sendPhoto(chat_id,"https://i.ytimg.com/vi/28Vlykt6ofo/hqdefault.jpg")
+        bot.sendPhoto(chat_id,"https://600904.smushcdn.com/1098074/wp-content/uploads/2018/11/bitmoji-20181119104523-1-300x300.png?lossy=0&strip=0&webp=1")
     else:
                        link = "https://iare-data.s3.ap-south-1.amazonaws.com/uploads/"+Branch.lower()+"/"+roll+".jpg"
                        print(link)
