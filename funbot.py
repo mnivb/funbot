@@ -26,7 +26,7 @@ def handle(msg):
     roll = command.split(' ')[-1]
     print(roll)
     if roll=='17951A05A7':
-        bot.sendMessage("betterlucknexttime!")
+        bot.sendMessage(chat_id,"betterlucknexttime!")
     link = "https://iare-data.s3.ap-south-1.amazonaws.com/uploads/"+Branch+"/"+roll+".jpg"
     print(link)
     bot.sendPhoto(chat_id,link)
