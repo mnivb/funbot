@@ -1,1 +1,1 @@
-python funbot.py
+worker: python funbot.py
