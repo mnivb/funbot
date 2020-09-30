@@ -29,7 +29,7 @@ def handle(msg):
         bot.sendMessage(chat_id,"betterlucknexttime!")
         bot.sendPhoto(chat_id,"https://i.ytimg.com/vi/28Vlykt6ofo/hqdefault.jpg")
     else:
-                       link = "https://iare-data.s3.ap-south-1.amazonaws.com/uploads/"+Branch+"/"+roll+".jpg"
+                       link = "https://iare-data.s3.ap-south-1.amazonaws.com/uploads/"+Branch.lower()+"/"+roll+".jpg"
                        print(link)
                        bot.sendPhoto(chat_id,link)
                        bot.sendMessage(chat_id,'ok next')
