@@ -28,7 +28,7 @@ def handle(msg):
     link = "https://iare-data.s3.ap-south-1.amazonaws.com/uploads/"+Branch+"/"+roll+".jpg"
     print(link)
     bot.sendPhoto(chat_id,link)
-    bot.sendMessage('ok next andi,order mukhyam bigiluu')
+    bot.sendMessage(chat_id,'ok next')
 
 
 
