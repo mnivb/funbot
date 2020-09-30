@@ -29,8 +29,8 @@ def handle(msg):
     print(link)
     bot.sendPhoto(chat_id,link)
     bot.sendMessage(chat_id,'ok next')
-    context.bot.sendPhoto(chat_id, photo="https://t.me/addstickers/FRIDAY_653340100_Pack", caption="avna yaar uu")
-
+    #context.bot.sendPhoto(chat_id, photo="https://t.me/addstickers/FRIDAY_653340100_Pack", caption="avna yaar uu")
+    bot.sendPhoto(chat_id,'https://t.me/addstickers/FRIDAY_653340100_Pack')
 
 
 bot = telepot.Bot('914559098:AAGDM825JY2C-lmogTwnXx-kTpQ7VR1tN48')
