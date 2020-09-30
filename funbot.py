@@ -27,12 +27,15 @@ def handle(msg):
     print(roll)
     if roll=='17951A05A7':
         bot.sendMessage(chat_id,"betterlucknexttime!")
+        bot.sendPhoto(chat_id,"
+    else:
     link = "https://iare-data.s3.ap-south-1.amazonaws.com/uploads/"+Branch+"/"+roll+".jpg"
     print(link)
     bot.sendPhoto(chat_id,link)
     bot.sendMessage(chat_id,'ok next')
     #context.bot.sendPhoto(chat_id, photo="https://t.me/addstickers/FRIDAY_653340100_Pack", caption="avna yaar uu")
-    bot.sendPhoto(chat_id,photo="https://t.me/addstickers/FRIDAY_653340100_Pack")
+    link2 = "https://i.ytimg.com/vi/28Vlykt6ofo/hqdefault.jpg"
+    bot.sendPhoto(chat_id,link2)
 
 
 bot = telepot.Bot('914559098:AAGDM825JY2C-lmogTwnXx-kTpQ7VR1tN48')
