@@ -29,7 +29,7 @@ def handle(msg):
     print(link)
     bot.sendPhoto(chat_id,link)
     bot.sendMessage(chat_id,'ok next')
-    context.bot.sendPhoto(chat_id, photo="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D28Vlykt6ofo&psig=AOvVaw2eXCatRdLFjYLf3cuSHGhx&ust=1601557740022000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMiY1Nr5kOwCFQAAAAAdAAAAABAP", caption="This is the test photo caption")
+    context.bot.sendPhoto(chat_id, photo="https://t.me/addstickers/FRIDAY_653340100_Pack", caption="avna yaar uu")
 
 
 
